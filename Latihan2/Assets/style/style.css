@@ -8,12 +8,14 @@
     padding: 60px 0 0 30px;
     margin: auto;
     display: flex;
+    color: #fff;
 }
 .jumbotron > img {
     width: 200px;
 }
 .container {
     display: flex;
+    margin: 30px 15px 15px 15px;
 }
 .container > table {
     width: 1280px;
@@ -21,12 +23,14 @@
     border-spacing: 0;
 }
 .text-box {
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #f6f6f6;
     margin-right: 20px;
+    padding: 15px 15px 15px 15px;
+    height: fit-content;
 }
 body {
-    font-family: sans-serif;
+    font-family: Calibri;
     margin: auto;
 }
 nav {
@@ -44,10 +48,18 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
+h1 {
+    font-size: 4em;
+}
+h1 > span {
+    color: #7491bf;
+}
+h1 ~ p {
+    font-size: 2em;
+}
 h2 {
     color: #fff;
     background-color: #7690c9;
-    border-radius: 5px;
     margin: 15px 0 15px 0;
     padding: 2px;
     width: fit-content;
@@ -84,9 +96,37 @@ th {
 p {
     text-align: justify;
 }
+form {
+    background-color: #aee2ed;
+    border-radius: 20px;
+    padding: 20px;
+    width: fit-content;
+}
 footer {
     background-color: #f3f3f3;
-    color: #8aabc8;
-    text-align: center;
+    color: #7690c9;
+    font-weight: bold;
     padding: 15px;
+}
+footer p {
+    text-align: center;
+}
+.button {
+    width: 250px;
+    padding: 5px;
+    background-color: #7690c9;
+    border: none;
+    border-radius: 5px;
+}
+.cek-rad-box {
+    margin: 20px 20px 20px 0;
+}
+.cek-rad-box li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+#nama {
+    width: 230px;
+    border: none;
 }

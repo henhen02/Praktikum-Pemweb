@@ -10,8 +10,8 @@
         <div  class="jumbotron">
             <img src="Assets/Image/tonggoku.png" alt="Profil" width="100px">
             <div>
-                <h1>Hai saya Lorem, ipsum.</h1>
-                <p>seorang dolor sit</p>
+                <h1>Hai, saya <span>Elsa Asle</span></h1>
+                <p>Seorang Viking Menakutkan</p>
             </div>
         </div>
         <nav>
@@ -109,23 +109,25 @@
                 <h2>#hubungi saya</h2>
                 <div class="container">
                     <form method="get">
-                        <label for="Name">Nama:</label>
-                        <input type="text" name="Name" placeholder="Hendri....">
+                        <label for="nama">Nama</label>
                         <br>
-                        <p>sudah menonton video saya?</p>
-                        <input type="radio" name="pilih" value="sudah">sudah
-                        <br>
-                        <input type="radio" name="pilih" value="belum">belum
-                        <br>
-                        <br>
-                        <input type="checkbox" name="ini" value="ini">ini
-                        <br>
-                        <input type="checkbox" name="itu" id="itu">itu
-                        <br>
-                        <input type="checkbox" name="anu" id="anu">anu
-                        <br>
-                        <br>
-                        <button type="submit" value="Send">Kirim</button>
+                        <input type="text" name="nama" id="nama">
+                        <div class="cek-rad-box">
+                            <label for="pilih">sudah menonton video saya?</label>
+                            <ul>
+                                <li><input type="radio" name="pilih" value="sudah">sudah</li>
+                                <li><input type="radio" name="pilih" value="belum">belum</li>
+                            </ul>
+                        </div>
+                        <div class="cek-rad-box">
+                            <p>Apa coba?</p>
+                            <ul>
+                                <li><input type="checkbox" name="ini" value="ini">Ini</li>
+                                <li><input type="checkbox" name="itu" value="itu">Itu</li>
+                                <li><input type="Checkbox" name="anu" value="anu">Anu</li>
+                            </ul>
+                        </div>
+                        <button type="submit" value="Send" class="button">KIRIM</button>
                     </form>
                 </div>
             </section>
